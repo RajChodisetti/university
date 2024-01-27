@@ -1,11 +1,11 @@
 package handler
 
 import (
+	"fmt"
 	"net/http"
-	""
+)
 
-func EmployeeHandler(w http.ResponseWriter, r *http.Request) {
-	if r.Method == http.MethodGet{
-		
-	}
+func GetAllEmployees(w http.ResponseWriter, r *http.Request) {
+
+	fmt.Fprint
 }
