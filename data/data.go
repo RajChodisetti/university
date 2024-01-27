@@ -3,7 +3,7 @@ package data
 var e = 3
 var s = 3
 
-func datahouse() {
+func Datahouse() {
 	Employees[1] = Employee{ID: 1, Name: "Raj", Role: "Teacher"}
 	Employees[2] = Employee{ID: 2, Name: "Praveena", Role: "Principal"}
 
