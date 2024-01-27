@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.RajChodisetti/university/app"
+	"github.com/RajChodisetti/university/app"
 )
 
 func main() {
