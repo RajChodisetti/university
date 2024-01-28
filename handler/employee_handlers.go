@@ -118,9 +118,3 @@ func UpdateEmployee(w http.ResponseWriter, r *http.Request) {
 	w.Write(employeeJSON)
 
 }
-
-func GetAllStudents(w http.ResponseWriter, r *http.Request) {
-	for _, value := range data.Students {
-		fmt.Fprintf(w, "ID: %d, Name: %s, Major: %s\n", value.ID, value.Name, value.Major)
-	}
-}
